@@ -1,0 +1,17 @@
+/*  For
+    riprendiamo i 2 div centrali, utilizza il for per assegnare al primo div un background chiaro ed al secondo un background scuro*/
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.box:nth-child(1) {
+  background-color: #ff6666;
+}
+
+.box:nth-child(2) {
+  background-color: #ffcccc;
+}
+
+/*# sourceMappingURL=style.css.map */

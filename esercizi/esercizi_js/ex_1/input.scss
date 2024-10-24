@@ -1,0 +1,16 @@
+/*  For
+    riprendiamo i 2 div centrali, utilizza il for per assegnare al primo div un background chiaro ed al secondo un background scuro*/
+
+$base-color: red;
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+@for $i from 1 through 2 {
+    .box:nth-child(#{$i}) {
+      background-color: lighten($base-color, $i * 20%);
+    }
+  }
