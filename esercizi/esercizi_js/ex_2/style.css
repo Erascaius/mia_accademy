@@ -1,0 +1,22 @@
+.box-red {
+  background-color: red;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-orange {
+  background-color: orange;
+}
+
+body div {
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
