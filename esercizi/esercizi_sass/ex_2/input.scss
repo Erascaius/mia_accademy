@@ -1,7 +1,12 @@
-$colors: red, blue, green, orange;
+$colors: (
+    rosso: #ff0000,
+    blu: #0000ff,
+    verde: #00ff00,
+    turchese: #00ffff,
+);
 
-@each $color in $colors {
-  .box-#{$color} {
+@each $name,$color in $colors {
+  .box-#{$name} {
     background-color: $color;
   }
 }

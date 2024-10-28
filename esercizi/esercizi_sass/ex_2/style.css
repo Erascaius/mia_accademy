@@ -1,17 +1,17 @@
-.box-red {
-  background-color: red;
+.box-rosso {
+  background-color: #ff0000;
 }
 
-.box-blue {
-  background-color: blue;
+.box-blu {
+  background-color: #0000ff;
 }
 
-.box-green {
-  background-color: green;
+.box-verde {
+  background-color: #00ff00;
 }
 
-.box-orange {
-  background-color: orange;
+.box-turchese {
+  background-color: #00ffff;
 }
 
 body div {
