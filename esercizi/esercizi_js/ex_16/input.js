@@ -7,8 +7,8 @@ for(let i = 0; i < 5; i++){
     parole.push(prompt("inserisci parola"));
 }
 
-for(let i = 0; i <= parole.length ; i++){
-    if(parole[i] % 2 != 0){
-        document.write(parole[i]);
+for(let i = 0; i < parole.length ; i++){
+    if(parole[i].length % 2 != 0){
+        document.write(parole[i], "\r\n");
     }
 }
