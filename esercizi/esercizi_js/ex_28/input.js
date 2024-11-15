@@ -7,8 +7,5 @@ numbers.forEach((numbers) => {
     console.log(numbers*2);
 });
 
-const squaredNumbers = numbers.map((numbers) =>{
-    numbers *= numbers
-    console.log(numbers);
-})
-
+const squaredNumbers = numbers.map((numbers) => numbers*= numbers)
+console.log(squaredNumbers);
