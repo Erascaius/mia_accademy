@@ -12,4 +12,4 @@ function divisione(divisore,dividendo){
     }
 }
 
-divisione(10,0);
+divisione(0,10);
