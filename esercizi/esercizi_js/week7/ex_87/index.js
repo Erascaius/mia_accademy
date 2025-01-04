@@ -18,4 +18,4 @@ async function asincrona(boolean){
     }
 }
 
-asincrona(false);
+asincrona(true);
