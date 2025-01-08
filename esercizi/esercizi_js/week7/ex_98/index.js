@@ -1,9 +1,13 @@
-sessionStorage.setItem("user","andrea");
+localStorage.setItem("user", "andrea");
+sessionStorage.setItem("data", "matteo");
 
-const sessionItem = sessionStorage.getItem("user");
+const localItem = localStorage.getItem("user");
+const sessionItem = sessionStorage.getItem("data");
 
-console.log(sessionItem);
+console.log(localItem, sessionItem);
 
-sessionStorage.removeItem("user");
+localStorage.removeItem("user");
+sessionStorage.removeItem("data");
 
-console.log(sessionStorage.getItem("user"));
+console.log(localStorage.getItem("user"),sessionStorage.getItem("data"));
+

@@ -1,9 +1,9 @@
-document.cookie = "username=andrea; expires=wed, 08 Jen 2025 23:00:00 UTC";
+localStorage.setItem("firstname", "Andrea");
 
-const cookie = document.cookie;
+const localItem = localStorage.getItem("firstname");
 
-console.log(cookie);
+console.log(localItem);
 
-document.cookie = "username=; expires=wed, 03 Jen 1970 23:00:00 UTC";
+localStorage.removeItem("firstname");
 
-console.log(cookie);
+console.log(localStorage.getItem("firstname"));
